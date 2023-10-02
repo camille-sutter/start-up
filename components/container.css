@@ -1,0 +1,113 @@
+.container {
+  width: 900px;
+  margin: 60px auto;
+}
+
+.container h2 {
+  color: #556D36;
+}
+
+.container p {
+  color:#556D36;
+}
+
+.container2 {
+  background-color: #7D121E;
+}
+
+.container2 img {
+  width: 280px;
+}
+
+.container2 h2 {
+  color: floralwhite;
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+}
+
+.container2 p{
+  color: floralwhite;
+  text-align: center;
+}
+
+.container2 a:link {
+    color: floralwhite;
+}
+.container2 a:hover {
+    color: #556D36;
+}
+.container2 a:visited {
+    color: black;
+}
+
+.container3 {
+  background-color: floralwhite;
+}
+
+.container3 h2{
+  padding: 40px 0px 40px 0px;
+  color:#556D36;
+  margin: 0px;
+  text-align: center;
+}
+
+.container3 p{
+  color: #556D36;
+  text-align: center;
+}
+
+.container4 {
+	display: flex;
+ 	flex-wrap: wrap;
+	flex-direction: row;
+    flex-wrap: wrap;
+	background-color: floralwhite;
+	margin: 0px;
+}
+
+.container4 h2{
+  padding: 40px 0px 40px 0px;
+  color:#556D36;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.first{
+	float: left;
+	width: 50%;
+}
+
+.first h2, p {
+	text-align: center;
+	color: #556D36;
+	padding: 20px;
+	min-width: 400px;
+}
+
+.second {
+	float: right;
+	height: 300px;
+	min-width: 500px;
+	margin-left: auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

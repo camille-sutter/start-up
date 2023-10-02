@@ -1,0 +1,17 @@
+.btn-oliv {
+	margin: auto;
+  background-color: #556D36;
+  color:white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding: 15px 20px;
+}
+.btn-oliv2 {
+  background-color: #556D36;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color:white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
